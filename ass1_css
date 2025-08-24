@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Playwrite+AU+VIC+Guides&family=Playwrite+PE+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+</style>
+    <style>
+      a{
+        color: yellowgreen;
+      }
+
+      .grid1{
+        background-color: #02304A;
+        margin: 10px;
+        padding: 0px;
+      }
+      .grid2 h2{
+        font-weight: bold;
+        color: #02304A;
+        font-family: 'Poppins', sans-serif;
+      }
+      .grid2 h3{
+        font-weight: bold;
+        color: #02304A;
+        font-family: 'Poppins', sans-serif;
+
+      }
+      header,.cont_sec,.edu_sec{
+        text-align: center;
+        color: antiquewhite;
+      }
+      img {
+        border-radius: 44%;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 20% 80%;
+      }
+
+      
+
+    .skill {
+      margin: 10px 0;
+    }
+
+    progress {
+      width: 300px;
+      height: 15px;
+    }
+    
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid1">
+        <header>
+          <img
+            src="The_Ishaan1.png"
+            height="300px"
+            width="250px"
+            alt="profile image"
+          />
+          <h2>Ishaan Varshney</h2>
+          <h3>B.Tech CSE Student | Future SoftWare Engineer & Entrepreneur</h3>
+        </header>
+        
+
+        <div class="cont_sec">
+          <h2>Contact Information</h2>
+          <ul>
+            <li><i class="fa fa-envelope" style="font-size:16px;color:red"></i> <a href="mailto:ishaan.varshney_cs24@gla.ac.in"
+                >ishaan.varshney_cs24@gla.ac.in</a
+              >
+            </li>
+            <li><i class="fa fa-phone" style="font-size:16px;color:red"></i> <a href="tel:+919259292036"> +91 9259292036</a></li>
+            <li>
+              <i class="fa fa-linkedin-square" style="font-size:16px;color:red"></i>
+              <a
+                href="https://www.linkedin.com/in/
+ishaan-varshney-800059375
+"
+                target="_blank"
+                >linkedin.com/in/ishaan-varshney</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="edu_sec">
+          <h2>Education</h2>
+          <table>
+            <tr>
+              
+            </tr>
+            <tr>
+              <td>
+                2024-2028 Present
+              </td>
+              <td>
+                B.Tech in Computer Science
+              </td>
+              <td>
+                GLA University, Mathura
+              </td>
+            </tr>
+            <tr>
+              <td >2022</td>
+              <td >
+                Class XII (PCM)
+              </td>
+              <td>
+                Rajendra Lohia Vidhya Mandir,Hathras
+              </td>
+            </tr>
+            <tr>
+              <td>2020</td>
+              <td>Class X</td>
+              <td>
+                Rajendra Lohia Vidhya Mandir,Hathras
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="grid2">
+        <div class="about_me">
+          <h2>About Me</h2>
+          <p>
+            Hello! My name is <b>Ishaan Varshney</b>, and I am currently
+            pursuing <i>B.Tech in Computer Science</i> from
+            <u>GLA University, Mathura</u>. I am passionate about
+            <b>FullStack</b>,<b>Artificial Intelligence</b>,
+            <b>Machine Learning</b>, and <b><u>Entrepreneurship</u></b
+            >. My goal is to become a <b>Software Engineer</b> and a good
+            <b>Entrepreneur</b>
+          </p>
+        </div>
+        <div class="skill">
+        <h2>My Skills</h2>
+
+  <div class="skill">C <br>
+    <progress value="90" max="100"></progress>
+  </div>
+
+  <div class="skill">Python <br>
+    <progress value="95" max="100"></progress>
+  </div>
+
+  <div class="skill">HTML <br>
+    <progress value="90" max="100"></progress>
+  </div>
+
+  <div class="skill">CSS <br>
+    <progress value="80" max="100"></progress>
+  </div>
+
+  <div class="skill">JavaScript  <br>
+    <progress value="60" max="100"></progress>
+  </div>
+
+  <div class="skill">Java (Intermediate) <br>
+    <progress value="70" max="100"></progress>
+  </div>
+      <div
+        style="border: 1px solid black; padding: 10px; margin: 10px"
+        class="project"
+      >
+        <h2>Projects</h2>
+
+        <h3>Form Project (HTML & CSS)</h3>
+        <p>
+          I created a <b>Payment Form</b> using <i>HTML</i> and <i>CSS</i> as
+          part of my full-stack learning journey. The form includes fields like
+          <u>name</u>, <u>email</u>, <u>password</u>,<u>Card type</u>,<u>cvv</u>
+          and a <u>submit button</u>. This project helped me understand
+          <b>frontend development basics</b> such as input tags, labels, and
+          styling with CSS.
+        </p>
+      </div>
+      <div class="hobbies">
+        <h3>Hobbies</h3>
+        <ul>
+          <li>🏏 Cricket</li>
+          <li>👪 Spend time with friends and family</li>
+          <li>📚 Read Business books</li>
+          <li>🎵 Listening to Music</li>
+          <li>✈️ Traveling</li>
+        </ul>
+      </div>
+
+      </div>
+
+      
+
+      <footer>
+        <p>&copy; 2025 Ishaan Varshney</p>
+      </footer>
+    </div>
+  </body>
+</html>
